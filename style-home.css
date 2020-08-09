@@ -1,22 +1,20 @@
-#banner{
+#banner {
     width: 100%;
 }
 
-.principal{
-    background-color: #CCCCCC;
+.principal {
     padding: 30px;
 }
 
-.titulo-principal{
+.titulo-principal {
     padding-left: 15px;
 }
 
-.titulo-centralizado{
+.titulo-centralizado {
     text-align: center;
-    
 }
 
-p{
+p {
     text-align: center;
 }
 
@@ -24,28 +22,26 @@ p{
     font-size: 20px;
 }
 
-em strong{
+em strong {
     color: red;
 }
 
-.itens{
+.itens {
     font-style: italic;
 }
 
-.beneficios{
+.beneficios {
     background-color: #FFFFFF;
     margin: 15px;
 }
 
-
-
-ul{
+ul {
     display: inline-block;
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
 }
 
-.img-beneficios{
+.img-beneficios {
     width: 50%;
 }

@@ -12,7 +12,7 @@
 <body>
     <header>
         <div class="caixa">
-            <h1><img src="logo.jpg" width="10%" alt=""></h1>
+            <h1><img src="logo.jpg" width="10%" alt="Logo da barbearia alura"></h1>
             <nav>
                 <ul class="navegacao">
                     <li><a href="index.html">Home</a></li>
@@ -25,40 +25,42 @@
     <main>
         <form action="">
             <label for="nome-e-sobrenome">Nome e Sobrenome</label>
-            <input type="text" id="nome-e-sobrenome" class="input-padrao">
+            <input type="text" id="nome-e-sobrenome" class="input-padrao" placeholder="Digite seu Nome" required>
 
             <label for="email">Email</label>
-            <input type="text" id="email" class="input-padrao">
+            <input type="email" id="email" class="input-padrao" placeholder="Digite seuemail@dominio.com" required>
 
             <label for="telefone">Telefone</label>
-            <input type="text" id="telefone" class="input-padrao">
+            <input type="tel" id="telefone" class="input-padrao" placeholder="Digite seu melhor Número" required>
 
             <label for="mensagem">Mensagem</label>
-            <textarea id="mensagem" cols="70" rows="10" class="input-padrao"></textarea>
+            <textarea id="mensagem" cols="70" rows="10" class="input-padrao" required></textarea>
 
-            <div>
-                <p>Como prefere o nosso contato?</p>
+            <fieldset>
+                <legend>Como prefere o nosso contato?</legend>
                 <label for="radio-email"><input type="radio" name="contato" id="radio-email" value="email">Email</label>
 
                 <label for="radio-telefone"><input type="radio" name="contato" id="radio-telefone" value="telefone">Telefone</label>
 
-                <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp" value="WhatsApp">WhatsApp</label>
+                <label for="radio-whatsapp"><input type="radio" name="contato" id="radio-whatsapp" value="WhatsApp" checked>WhatsApp</label>
 
-            </div>
-            <p>Qual horário prefere ser atendido?</p>
-            <select>
-                <option value="manha">Manhã</option>
-                <option value="tarde">Tarde</option>
-                <option value="noite">Noite</option>    
-            </select>
+            </fieldset>
+            <fieldset>
+                <legend>Qual horário prefere ser atendido?</legend>
+                <select>
+                        <option value="manha">Manhã</option>
+                        <option value="tarde">Tarde</option>
+                        <option value="noite">Noite</option>    
+                </select>
+            </fieldset>
 
-            <label><input type="checkbox" class="checkbox">Gostaria de receber nossas novidades?</label>
+            <label><input type="checkbox" class="checkbox" checked>Gostaria de receber nossas novidades?</label>
 
             <button type="submit">Enviar</button>
         </form>
     </main>
     <footer>
-        <img src="logo_branco.png" width="8%">
+        <img src="logo_branco.png" width="8%" alt="logo da barbearia alura">
         <p class="copyright">© Copyright Barbaria La Frontera - 2020</p>
         <p class="copyright">Powered By MD - System</p>
     </footer>

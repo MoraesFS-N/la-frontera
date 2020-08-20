@@ -201,10 +201,10 @@ th {
 .lista-beneficios {
     width: 40%;
     display: inline-block;
-    vertical-align: baseline;
+    vertical-align: top;
 }
 
-.img-beneficios {
+.imagem-beneficios {
     width: 60%;
 }
 

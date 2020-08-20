@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produtos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style-home.css">
 </head>
 
 <body>
@@ -23,9 +23,11 @@
             </nav>
         </div>
     </header>
+    <img class="banner" src="banner.jpg" alt="banner">
     <main>
-        <div class="principal">
-            <h2 class="titulo-centralizado">Sobre a Barbearia Alura</h2>
+        <section class="principal">
+            <h2 class="titulo-principal">Sobre a Barbearia Alura</h2>
+            <img class="utensilios" src="img-beneficios.jpg" alt="Utensilios de um barbeiro">
 
             <p> Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba.Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.
             </p>
@@ -35,18 +37,29 @@
 
             <p> Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.
             </p>
-        </div>
-        <div class="beneficios">
-            <h3 class="titulo-centralizado">Benefícios</h3>
-            <ul>
-                <li class="itens">Atendimento aos clientes</li>
-                <li class="itens">Espaço diferenciado</li>
-                <li class="itens">Localização</li>
-                <li class="itens">Profissionais Qualificados</li>
-            </ul>
-            <img src="barber.jpg" class="img-beneficios">
+        </section>
+        <section class="mapa">
+            <h3 class="titulo-principal">Nosso Estabelecimento</h3>
+            <p>Nosos estabelecimento está localizado no coração da cidade</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3484.687674313379!2d-56.069994985378784!3d-29.144401282218617!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94550516af85d441%3A0xf3b5b4e8cfed084a!2sLa%20Frontera%20Barbearia!5e0!3m2!1spt-BR!2sbr!4v1597887814912!5m2!1spt-BR!2sbr"
+                width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </section>
+        <section class="beneficios">
+            <h3 class="titulo-principal">Benefícios</h3>
+            <div class="conteudo-beneficios">
+                <ul class="lista-beneficios">
+                    <li class="itens">Atendimento aos clientes</li>
+                    <li class="itens">Espaço diferenciado</li>
+                    <li class="itens">Localização</li>
+                    <li class="itens">Profissionais Qualificados</li>
+                </ul>
+                <img src="barber.jpg" class="img-beneficios">
+            </div>
 
-        </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </section>
     </main>
     <footer>
         <img src="logo_branco.png" width="8%">
